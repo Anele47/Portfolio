@@ -79,13 +79,6 @@ body {
   border-style: solid;
 }
 
-.homesection img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 25px;
-}
-
 .intro {
   display: flex;              /* aligns text and image side by side */
   align-items: center;        /* vertically centers them */
@@ -579,3 +572,14 @@ footer {
   }
 }
 }
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;   /* stack items vertically */
+    text-align: center;       /* center text */
+  }
+
+  .intro .image img {
+    margin-top: 20px;
+  }
+}
+
