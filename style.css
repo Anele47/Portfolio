@@ -92,8 +92,9 @@ body {
 }
 
 .intro .image img {
-  width: 250px;               /* adjust size */
-  border-radius: 12px;        /* rounded corners */
+  height:350px
+  width: 350px;               /* adjust size */
+  border-radius: 50%;        /* rounded corners */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
 }
 
