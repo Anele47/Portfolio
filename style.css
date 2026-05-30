@@ -87,9 +87,23 @@ body {
 }
 
 .intro {
-  margin-left: 0;
-  max-width: 1200px;
+  display: flex;              /* aligns text and image side by side */
+  align-items: center;        /* vertically centers them */
+  justify-content: space-between; /* pushes text left, image right */
+  gap: 30px;                  /* space between text and image */
+  padding: 40px;
 }
+
+.intro .text {
+  max-width: 600px;           /* keeps text block neat */
+}
+
+.intro .image img {
+  width: 250px;               /* adjust size */
+  border-radius: 12px;        /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
+}
+
 .intro h2 {
   font-size: 2.5rem;
   color: #f7f3f5;
