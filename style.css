@@ -80,8 +80,9 @@ body {
 }
 
 .homesection img {
-  height: 400px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 25px;
 }
 
@@ -520,4 +521,47 @@ footer {
   .card {
     width: 100%;
   }
+
+  .homesection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .homesection img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .image-text-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .side-image {
+    width: 250px;
+    height: auto;
+    margin-right: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul li {
+    margin: 10px 0;
+  }
+
+  .education-card {
+    flex-direction: column;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+}
 }
